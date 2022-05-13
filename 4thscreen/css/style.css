@@ -507,20 +507,3 @@ body p {
     width: 20rem;
     border-radius: 20px;
 }
-
-a{
-    text-decoration: none;
-    
-}
-
-.btn-warn-lg {
-    color: #ffffff;
-    background-color: #f79e09;
-    border-color: #ffc107;
-    padding: 20px 40px;
-}
-
-/* .btn-warn-lg:hover{
-
-
-} */
