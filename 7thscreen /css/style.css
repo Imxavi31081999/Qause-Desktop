@@ -1,12 +1,3 @@
-@font-face {
-    font-family:Segoe UI ;
-    src: url(../fonts/SEGOEUI.TTF) format("trueType");
-    src: url(../fonts/SEGOEUIB.TTF) format("trueType");
-    /* src: url(../fonts/segoeuii.ttf) format("trueType"); */
-    /* src: url(../fonts/segoeuiz.ttf) format("trueType"); */
-}
-
-
 
 body p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
