@@ -9,6 +9,8 @@ colors
 /* #3B3B3B */
 /* #E9E9E9 */
 /* #D2D2D2 */
+/* #253DC0 */
+/* #FF0707 */
 /* .modal-dialog {
   position: relative;
   width: auto;
@@ -20,6 +22,10 @@ colors
 
 .bg-3 {
   background-color:#EBF4FE;
+}
+
+.br-15 {
+  border-radius: 15px;
 }
 .fw-600{
   font-weight: 600;

@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+/* #F7A212 */
+/* #EBF4FE */
+/* #3B3B3B */
+/* #E9E9E9 */
+/* #D2D2D2 */
+/* #253DC0 */
+/* #FF0707 */
+/* .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: .5rem;
+  pointer-events: none;
+  width: 710px;
+  height: 730px;
+} */
+
+.btn-g-color {
+    background-color: #f7a212;
+    color: #fff;
+    font-size: 20px;
+
+}
+
+.pdf-icon {
+    color: #FF0707;
+    /* font-size: 23px !important; */
+}
+
+.btn-g-color-s {
+    background-color: #253dc0;
+    color: #fff;
+    font-size: 20px;
+}
+.p-text-c {
+    color: #F7A212;
+    font-weight: 600;
+    font-size: 17px;
+  }
+  
+.bg-3 {
+    background-color:#EBF4FE;
+  }
+  .fw-normal{
+      font-weight: 400;
+  }
+  .br-15 {
+    border-radius: 15px;
+    background-color: #253DC0;
+    font-size: 18px;
+  }
+
+  .fw-600{
+    font-weight: 600;
+  }
 
 body p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
