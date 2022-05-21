@@ -13,57 +13,113 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/style.css">
   <title>Title</title>
-
+  <style>
+    @media (min-width: 576px) {
+      .modal-dialog {
+        max-width: 1200px;
+        margin: 1.75rem auto;
+      }
+    }
+  </style>
 
 </head>
 
 <body>
 
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
   Launch static backdrop modal
 </button> -->
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="modal-dialog">
     <div class="modal-content">
-      <div class="modal-header">
+      <!-- <div class="modal-header p-0 border-0">
         <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
         </button>
-      </div>
+      </div> -->
       <div class="modal-body">
-        ...
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5">
+              <div>
+                <div class="card bg-prime">
+                  <div class="p-4">
+                    <div class="d-flex justify-content-center ">
+                      <div class=""><img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="user"
+                          class="rounded-circle" width="100" /></div>
+                    </div>
+                    <div class="text-center">
+                      <h5 class="fw-600">Neha Sharma <i class="fa fa-check-circle" aria-hidden="true"></i> </h5>
+                      <p>April 18 2022</p>
+                    </div>
+                    <div class="row my-4">
+                      <div class="col border-right text-center">
+                        <h4 class="fw-600">14</h4>
+                        <h6 class="">Engaged</h6>
+                      </div>
+                      <div class="col border-right text-center">
+                        <h4 class="fw-600">14</h4>
+                        <h6 class="">Followers</h6>
+                      </div>
+                      <div class="col text-center">
+                        <h4 class="fw-600">14</h4>
+                        <h6 class="">Following</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="card sec-card">
+                  <div class="d-flex justify-content-around ">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-google"></i>
+                  </div>
+                </div>
+                <div style="background-color:#EAF1F8;" class="p-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut nobis earum laborum deserunt fugiat obcaecati beatae. Facere voluptate ab ad, nesciunt voluptatibus odio cum, quis rem quod adipisci, aliquam animi.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit optio deserunt, odio ut beatae illum sint,
+              modi a libero mollitia nostrum suscipit, cupiditate delectus. Omnis minus maxime adipisci a impedit.
+              Nihil laudantium explicabo, dignissimos, quo modi eligendi odit facilis tenetur quam quis voluptatem at
+              maxime ut doloremque natus vero optio eum dolore rerum et ratione ipsum in veritatis! Tempore, hic?
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
+
     </div>
   </div>
-</div>
 
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header p-0 border-0">
-      <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true"><i class="far fa-times-circle"></i></span>
-      </button>
-    </div>
-    <div class="modal-body">
-      ...
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      <button type="button" class="btn btn-primary">Understood</button>
-    </div>
-  </div>
-</div>
 
-  
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
