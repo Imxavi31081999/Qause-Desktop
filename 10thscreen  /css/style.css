@@ -33,27 +33,30 @@
     color: #fff;
     font-size: 20px;
 }
+
 .p-text-c {
     color: #F7A212;
     font-weight: 600;
     font-size: 17px;
-  }
-  
+}
+
 .bg-3 {
-    background-color:#EBF4FE;
-  }
-  .fw-normal{
-      font-weight: 400;
-  }
-  .br-15 {
+    background-color: #EBF4FE;
+}
+
+.fw-normal {
+    font-weight: 400;
+}
+
+.br-15 {
     border-radius: 15px;
     background-color: #253DC0;
     font-size: 18px;
-  }
+}
 
-  .fw-600{
+.fw-600 {
     font-weight: 600;
-  }
+}
 
 body p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -206,7 +209,7 @@ body p {
 .cardprogress {
     display: -ms-flexbox;
     display: flex;
-    height: 9px;
+    height: 2px;
     overflow: hidden;
     line-height: 0;
     font-size: .75rem;
@@ -230,21 +233,31 @@ body p {
 }
 
 .display-5 {
-    font-size: 35px;
+    font-size: 33px;
     margin-top: 5px;
     margin-left: 5px;
 }
 
+.money-amt h6 {
+    font-size: 30px;
+}
+
 .rupeebtn {
-    font-weight: 600;
+    /* font-weight: 600; */
     border: solid 1px #bdb9b9;
     color: #000;
-    padding: 2px 4px;
-    font-size: 90%;
+    /* padding: 2px 4px; */
+    /* font-size: 100%; */
+    background: none;
+    font-size: 31px;
 }
 
 .fs {
     font-size: 90%;
+}
+
+.fs-s {
+    font-size: 22px;
 }
 
 .media-sec-s17 h5 {
@@ -310,6 +323,24 @@ body p {
     letter-spacing: 0px;
     color: #F79E09;
     opacity: 1;
+}
+
+.donate-btn {
+    color: #fff;
+    background: #253DC0;
+    border-color: #005cbf;
+    border-radius: 6px;
+    padding: 11px 59px;
+    font-weight: 600;
+}
+
+.donate-btn:hover:active:focus {
+    color: #fff;
+    background: #253DC0;
+    border-color: #005cbf;
+    border-radius: 6px;
+    padding: 11px 59px;
+    font-weight: 600;
 }
 
 .inner-donate-card {
@@ -519,6 +550,7 @@ body p {
     background-color: #f2f2f2;
     border-color: #dfdfdf;
 }
+
 .btn-dark-2 {
     color: #010101;
     background-color: #f2f2f2;
@@ -531,6 +563,7 @@ body p {
     background-color: #f2f2f2;
     border-color: #dfdfdf;
 }
+
 .profile-card-icon {
 
     padding: 12px 18px;
@@ -565,12 +598,13 @@ body p {
     border-color: #ffc107;
 }
 
-.profile-card-1{
+.profile-card-1 {
     background-color: #fcfcfc;
     border: solid 1px #efefef;
-    border-radius: 8px; 
+    border-radius: 8px;
 }
-.profile-card-2{
+
+.profile-card-2 {
     background-color: #fcfcfc;
     border: 0px;
     width: 20rem;
@@ -583,17 +617,19 @@ body p {
     border-color: #ffc107;
     padding: 10px 65px;
 }
-a{
+
+a {
     text-decoration: none;
-    
+
 }
 
-.center-item{
+.center-item {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .card-img-overlay {
     opacity: 0;
     position: absolute;
@@ -605,6 +641,7 @@ a{
     padding: 1.25rem;
     border-radius: calc(0.25rem - 1px);
 }
+
 .card-img-overlay:hover {
     opacity: 1;
     position: absolute;
@@ -617,9 +654,9 @@ a{
     border-radius: calc(0.25rem - 1px);
 }
 
-  /* The heart of the matter */
-          
-  /* .horizontal-scrollable > .row {
+/* The heart of the matter */
+
+/* .horizontal-scrollable > .row {
     overflow-x: auto;
     white-space: nowrap;
 }
